@@ -29,6 +29,5 @@ yarn dev
 - [링크](https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Freact-seo-omega.vercel.app%2F&crawltype=1)
 
 ### 개선점
-- 스코어 개선을 위해 필요한 작업 1
-- 스코어 개선을 위해 필요한 내용 2
-- 스코어 개선을 위해 필요한 내용 3
+- H1 태그 추가
+- index.html 에 description 추가
