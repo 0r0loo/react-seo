@@ -22,7 +22,10 @@ function App() {
         <meta name="twitter:image" content={'twitter image'} />
         <meta name="twitter:card" content="https://assets.weget.kr/weget.svg" />
       </Helmet>
-      <div>React Helmet</div>
+      <div>
+        <h1>React SEO 를 바꿔보는 프로젝트</h1>
+        React Helmet
+      </div>
     </>
   );
 }
