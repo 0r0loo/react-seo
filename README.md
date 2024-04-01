@@ -26,7 +26,7 @@ yarn dev
   - 윈도우 타일에 표시되는 아이콘으로 사용됨
 
 ## SEO 스코어 분석
-- 스코어 분석에 사용한 서비스: (링크 적기, 예: https://www.seobility.net/en/seocheck/)
+- [링크](https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Freact-seo-omega.vercel.app%2F&crawltype=1)
 
 ### 개선점
 - 스코어 개선을 위해 필요한 작업 1
