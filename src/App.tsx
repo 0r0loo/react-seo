@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { Helmet } from 'react-helmet-async';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Helmet>
+        <title>페이지 제목</title>
+        <meta
+          name={'description'}
+          content={'helmet 과제를 제출하려고 만든 프로젝트 입니다.'}
+        />
+
+        <meta property="og:title" content={'og title'} />
+        <meta property="og:description" content={'og description'} />
+        <meta property="og:image" content={'og image'} />
+        <meta property="og:url" content={'og url'} />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:title" content={'twitter title'} />
+        <meta name="twitter:description" content={'twitter description'} />
+        <meta name="twitter:image" content={'twitter image'} />
+        <meta name="twitter:card" content="https://assets.weget.kr/weget.svg" />
+      </Helmet>
+      <div>React Helmet</div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
